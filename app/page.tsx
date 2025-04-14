@@ -8,6 +8,9 @@ import { TransitionLink } from './components/utils/TransitionLink';
 import Carousel from './components/carousel';
 import { TransitionImageLink } from './components/utils/TransitionImageLink';
 import FadeInImage from './components/utils/FadeInImage';
+import { getNetlifyContext } from 'utils';
+
+const ctx = getNetlifyContext();
 
 export default function Home() {
   const customCursorRef = useRef<HTMLDivElement | null>(null);
