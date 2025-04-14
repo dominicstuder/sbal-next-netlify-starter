@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 // import { motion, AnimatePresence } from "framer-motion";
-// import { motion } from "motion/react"
+import { motion } from "motion/react"
 import { TransitionLink } from './utils/TransitionLink';
 
 
@@ -18,6 +18,7 @@ const navItems = {
       name: 'Contact',
     }
   }
+  
 
 export default function MobileDropdown() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
